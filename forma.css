@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://wallpapercave.com/wp/wp8983100.jpg");
+  background-size: auto;
+  background-position: center;
+  margin: 0;
+  padding: 35px;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  font-size: xx-large;
+  padding-bottom: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.4); /* Prozirna pozadina */
+  color: white; /* Bijela boja teksta */
+  border: 1px solid #fff; /* Bijela ivica */
+  border-radius: 20px; /* zakrivljen border */
+  box-shadow: -10px 10px 20px #080808; /* sjena */
+  padding: 25px;
+  margin: auto;
+}
+.select-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  padding-right: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+select {
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  border: none;
+}
+select:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
+input,
+select,
+textarea {
+  cursor: pointer;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+input[type="submit"] {
+  background-color: #4f8cdb;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #307ce0;
+}
+
+.date-picker {
+  cursor: pointer;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: none;
+  border-radius: 4px;
+  margin: 0;
+  border: 1px solid #ccc;
+  margin: 6px 0 16px 0;
+}
+
+.date-container {
+  display: inline-grid;
+}
+
+.adventure-type {
+  display: block;
+}
+
+.submit-container {
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="forma.css" />
+    <link rel="stylesheet" href="dropdown-button.css" />
+  </head>
+  <body>
+    <h2>Prijava na avanturu</h2>
+    <div class="dropdown">
+      <a href="#" class="dropdown-button">Menu</a>
+      <div class="dropdown-content">
+        <a
+          href="file:///C:/Users/mirne/Desktop/PrviProjektniZadatak-SI/index.html#news"
+          >Home</a
+        >
+        <a
+          href="file:///C:/Users/mirne/Desktop/PrviProjektniZadatak-SI/contact.html"
+          >Contact</a
+        >
+        <a href="file:///C:/Users/mirne/Desktop/PrviProjektniZadatak-SI/aboutme.html">About me</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">Ime</label>
+        <input type="text" id="fname" name="firstname" placeholder="Ime.." />
+
+        <label for="lname">Prezime</label>
+        <input type="text" id="lname" name="lastname" placeholder="Prezime.." />
+
+        <label for="country">Država</label>
+        <div class="select-wrapper">
+          <select id="country" name="country">
+            <option value="Bosna i Hecegovina">Bosna i Hecegovina</option>
+            <option value="Hrvatska">Hrvatska</option>
+            <option value="Crna Gora">Crna Gora</option>
+            <option value="Sjeverna Makedonija">Sjeverna Makedonija</option>
+            <option value="Srbija">Srbija</option>
+            <option value="Ostalo">Ostalo</option>
+          </select>
+        </div>
+        <div class="date-container">
+          <label for="dob">Datum rođenja</label>
+          <input class="date-picker" type="date" id="dob" name="dob" />
+          <label for="adventure_date">Datum početka avanture</label>
+          <input
+            class="date-picker"
+            type="date"
+            id="adventure_date"
+            name="adventure_date"
+          />
+        </div>
+        <label class="adventure-type" for="adventure_type">Tip avanture</label>
+        <div class="select-wrapper">
+          <select id="adventure_type" name="adventure_type">
+            <option value="mountain">Planinarenje</option>
+            <option value="camp">Kampiranje</option>
+            <option value="ocean">Ronjenje</option>
+            <option value="skiing">Skijanje</option>
+            <option value="biking">Brdski biciklizam</option>
+            <option value="ostalo">Ostalo</option>
+          </select>
+        </div>
+        <label for="subject">Dodatno</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Opis..."
+          style="height: 100px"
+        ></textarea>
+
+        <div class="submit-container">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
